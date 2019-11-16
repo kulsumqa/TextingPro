@@ -16,7 +16,7 @@ public class LinkedInLogin extends BasePage {
 
 		click(By.xpath("//a[@class='nav__button-secondary']"));
 		SendKeys(By.id("username"), "kulsum.begumqa@gmail.com");
-		SendKeys(By.id("password"), "Raahil07");
+		SendKeys(By.id("password"), "");
 		click(By.xpath("//button[@class='btn__primary--large from__button--floating']"));
 	}
 
