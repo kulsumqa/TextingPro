@@ -20,9 +20,8 @@ public class FacebookLogin extends BasePage {
 	//lick(By.xpath("]"));
 	//witchTOPopUp();
 		SendKeys(By.xpath("//input[@id='email']"),"fairoos03@gmail.com");
-		//SendKeys(By.xpath("//input[@id='email']"), "fairoos03@gmail.com");
-		//SendKeys(By.xpath("//input[@id='pass']"),"kolijaamar" );
-		SendKeys(By.xpath("//input[@id='pass']"), "kolijaamar");
+		
+		SendKeys(By.xpath("//input[@id='pass']"), "");
 		click(By.xpath("//button[@id='loginbutton']"));
 		//click(By.xpath("//input[@id='u_0_2']"));
 	}
